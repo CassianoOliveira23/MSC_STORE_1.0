@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ephiphone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="shortcut icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" type="image/x-icon">
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg bg-black text-white fixed-top pl-3 pr-3" data-bs-theme="dark">
+    <div class="container-fluid text-white mx-auto" style="max-width: 1200px;">
+      <a class="navbar-brand fs-3" href="#"><strong><span style="color:rgb(56, 21, 210);">MSC</span>STORE</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <div class="mx-auto">
+                <ul class="navbar-nav  mb-2 mb-lg-0 text-center justijy-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html" style="color: #c7c5c5;">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: #c7c5c5;">PRODUTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#sobre" style="color: #c7c5c5;">SOBRE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contato" style="color: #c7c5c5;">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="flex-shrink-0 dropdown ">
+                <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="fa-solid fa-user" style="width: 32px; height: 32px;" class="rounded-circle"></i>
+                </a>
+                <ul class="dropdown-menu text-small shadow" data-popper-placement="bottom-end"
+                    style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(0px, 34px);">
+                    <li><a class="dropdown-item" href="#">Perfil</a></li>
+                    <li><a class="dropdown-item" href="#">Carrinho</a></li>
+                    <li><a class="dropdown-item" href="#">Favoritos</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </nav>
+
+    <br>
+    <br>
+
+  
+
+    <div class="container mt-5">
+      <div class="row m-5">
+          <div class="col-md-7" id="card-produto" >
+              <img  src="https://http2.mlstatic.com/D_NQ_NP_607067-MLB44783390433_022021-O.webp" class="img-fluid" alt="Imagem do Produto">
+          </div>
+          <div class="col-md-5">
+              <h1 class="mb-3" style="font-weight: bolder;">Stringberg Explorer Preta 6 cordas</h1>
+              <h3>R$ 3.999,90</h2>
+              <p>Ou em 10x de 399,90</p>
+              <h6>Descricao</h6>
+              <p class="mb-4" style="text-align: justify;">Cor: Preto fosco, 6 cordas, 2 captadores Humbuckers, 22 Trastes, Corpo em Rosewood, Braço em Maple, Chave com 3 posições, 1 Volume e 1 tone Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div>
+                  <label for="amount_product">Quantidade:</label>
+                  <input type="text" id="amount_product" name="amount_product" value="0" readonly size=10>
+                  <span id="bt+product">+</span>&nbsp;<span id="bt-product">-</span>
+
+                  <label for="total">Total: </label>
+                  <input id="total" type="text" name="total" value="R$ 0,00" readonly size=10>
+                  <br>
+                  <br>
+                  <button type="button" class="container btn btn-dark mt-2" id="add_to_cart">Adicionar ao carrinho</button>
+                  <button type="button" class="container btn btn-dark mt-2" id="buy_now">Comprar</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <br>
+    <br>
+
+    <!--FOOTER-->
+    <footer class="bg-dark text-center text-white">
+      <div class="container p-4 pb-0">
+  
+          <div class="container">
+              <h4><strong><span style="color:rgb(56, 21, 210);">MSC</span>STORE</strong></h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem distinctio animi molestiae expedita obcaecati exercitationem consequatur! Ducimus totam ullam dolore!</p>
+              <br>
+              <p>Nos siga nas Redes Sociais</p>
+              
+          </div>
+          <div class="d-flex gap-3 justify-content-center align-items-center fs-5 ">
+              
+              <a style="color: #c7c5c5;"target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a style="color: #c7c5c5;" target="_blank" href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a style="color: #c7c5c5;" target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a style="color: #c7c5c5;" target="_blank" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+          </div>
+          <br>
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+  
+          <p> © 2024 Copyright: Cassiano Oliveira - Desenvolvedor Front-End</p>
+          <p>Fone:(51) 98934-0681</p>
+      </div>
+
+
+
+   
+  
+  </footer>
+
+
+  <script src="/javascript/strinberg.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+   
+    
+</body>
+</html>
