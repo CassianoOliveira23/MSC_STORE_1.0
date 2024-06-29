@@ -1,12 +1,13 @@
 <h1 align="center">MSCSTORE</h1>
 
-<p>Neste projeto Desenvolvi uma loja de instrumentos musicais inteiramente usando Bootstrap</p>
 
 ![MSCPAGE](https://github.com/CassianoOliveira23/MSC_STORE_BOOTSTRAP/assets/130614345/1da9f9aa-4992-4593-800c-9a1efa76b9d2)
 
 ---
 
 <h2 align="center">Tecnologias e Ferramentas Utilizadas</h2>
+
+<p>Neste projeto Desenvolvi uma loja de instrumentos musicais inteiramente usando Bootstrap</p>
 
  Front-End:
   - HTML
